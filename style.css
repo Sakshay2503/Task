@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+.header ul{
+    list-style: none;
+    align-items: center;
+}
+
+.section-1{
+    background-image: linear-gradient(to right, #11c8f4, #684db6);
+    color: white;
+    background-color: red;
+    height: 200px;
+}
+ 
+.cardlist{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap: 10px;
+}
+
+.card{
+   width: 18rem;
+}
+
+img{
+    width: 100%;
+height: 20px;
+}
